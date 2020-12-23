@@ -1,0 +1,40 @@
+body {
+  background-color: white;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-image: url(./images/corona.jpg);
+  background-size: cover;
+  background-position: top;
+}
+
+.covid-image {
+  width: 370px;
+  margin-top: 50px;
+}
+
+h1 {
+  color: white;
+}
+
+h2 {
+  color: white;
+}
+
+@media (max-width: 770px) {
+  .container {
+    background-image: url(./images/girl.jpg);
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: top;
+  }
+
+  .covid-image {
+    width: 100%;
+  }
+}
